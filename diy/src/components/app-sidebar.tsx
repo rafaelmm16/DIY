@@ -1,5 +1,6 @@
 import * as React from "react"
 import { GalleryVerticalEnd } from "lucide-react"
+import { NavLink } from "react-router-dom";
 
 import { NavMain } from "@/components/nav-main"
 import { SidebarOptInForm } from "@/components/sidebar-opt-in-form"
@@ -32,113 +33,32 @@ const data = {
       ],
     },
     {
-      title: "Building Your Application",
-      url: "#",
+      title: "Editor de Pesquisa",
+      url: "/editor-de-pesquisa",
       items: [
         {
-          title: "Routing",
-          url: "#",
-        },
-        {
-          title: "Data Fetching",
-          url: "#",
-          isActive: true,
-        },
-        {
-          title: "Rendering",
-          url: "#",
-        },
-        {
-          title: "Caching",
-          url: "#",
-        },
-        {
-          title: "Styling",
-          url: "#",
-        },
-        {
-          title: "Optimizing",
-          url: "#",
-        },
-        {
-          title: "Configuring",
-          url: "#",
-        },
-        {
-          title: "Testing",
-          url: "#",
-        },
-        {
-          title: "Authentication",
-          url: "#",
-        },
-        {
-          title: "Deploying",
-          url: "#",
-        },
-        {
-          title: "Upgrading",
-          url: "#",
-        },
-        {
-          title: "Examples",
-          url: "#",
+          title: "Page",
+          url: "/editor-de-pesquisa",
         },
       ],
     },
     {
-      title: "API Reference",
-      url: "#",
+      title: "Visualizador De Relatorios",
+      url: "/visualizador-de-relatorios",
       items: [
         {
           title: "Components",
-          url: "#",
-        },
-        {
-          title: "File Conventions",
-          url: "#",
-        },
-        {
-          title: "Functions",
-          url: "#",
-        },
-        {
-          title: "next.config.js Options",
-          url: "#",
-        },
-        {
-          title: "CLI",
-          url: "#",
-        },
-        {
-          title: "Edge Runtime",
-          url: "#",
+          url: "/visualizador-de-relatorios",
         },
       ],
     },
     {
-      title: "Architecture",
-      url: "#",
+      title: "Elementos Gamificados",
+      url: "/elementos-gamificados",
       items: [
         {
           title: "Accessibility",
-          url: "#",
-        },
-        {
-          title: "Fast Refresh",
-          url: "#",
-        },
-        {
-          title: "Next.js Compiler",
-          url: "#",
-        },
-        {
-          title: "Supported Browsers",
-          url: "#",
-        },
-        {
-          title: "Turbopack",
-          url: "#",
+          url: "/elementos-gamificados",
         },
       ],
     },
