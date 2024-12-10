@@ -7,16 +7,9 @@ Este projeto visa criar um software de pesquisa de mercado "faça você mesmo" u
 **Frontend (Next.js):**
 
 * **Páginas:**
-    * `/`: Página inicial com apresentação da plataforma e opções de login/cadastro.
-    * `/dashboard`: Painel do usuário com pesquisas criadas, em andamento e relatórios.
     * `/criar-pesquisa`: Interface para criação de pesquisas (com templates e editor).
     * `/pesquisa/[id]`: Página para responder a uma pesquisa específica (com lógica de gamificação).
     * `/relatorios/[id]`: Visualização de relatórios gerados a partir das pesquisas.
-
-* **Componentes:**
-    * `EditorDePesquisa`: Componente para a construção da pesquisa (drag-and-drop, adicionar perguntas, opções de resposta, lógica de ramificação).
-    * `VisualizadorDeRelatorios`: Componente para exibir gráficos, tabelas e análises dos resultados.
-    * `ElementosGamificados`: Componentes para barra de progresso, pontos, recompensas, etc.
 
 * **Estado (Context API ou Redux):** Gerenciar o estado da aplicação, como dados da pesquisa, respostas coletadas, informações do usuário.
 
