@@ -66,7 +66,7 @@ const VisualizadorDeRelatorios = () => {
                 </tbody>
             </table>
 
-            {/* Adicione mais gráficos e análises aqui */}
+            {/* Adicionar mais gráficos e análises aqui */}
         </div>
     );
 };

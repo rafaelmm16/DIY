@@ -18,20 +18,6 @@ import {
 const data = {
   navMain: [
     {
-      title: "Getting Started",
-      url: "#",
-      items: [
-        {
-          title: "Installation",
-          url: "#",
-        },
-        {
-          title: "Project Structure",
-          url: "#",
-        },
-      ],
-    },
-    {
       title: "Editor de Pesquisa",
       url: "/editor-pesquisa",
       items: [
@@ -46,7 +32,7 @@ const data = {
       url: "/visu-relatorio",
       items: [
         {
-          title: "Components",
+          title: "Page",
           url: "/visu-relatorio",
         },
       ],
@@ -56,7 +42,7 @@ const data = {
       url: "/elementos-game",
       items: [
         {
-          title: "Accessibility",
+          title: "Page",
           url: "/elementos-game",
         },
       ],
@@ -76,7 +62,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                   <GalleryVerticalEnd className="size-4" />
                 </div>
                 <div className="flex flex-col gap-0.5 leading-none">
-                  <span className="font-semibold">Documentation</span>
+                  <span className="font-semibold">Dashboard</span>
                   <span className="">v1.0.0</span>
                 </div>
               </a>
