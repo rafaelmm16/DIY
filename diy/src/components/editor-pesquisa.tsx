@@ -1,6 +1,8 @@
+"use client";
+
 import React, { useState } from 'react';
 import { DndProvider } from 'react-dnd';
-import { HTMLBackend } from 'react-dnd-html5-backend';
+import { HTML5Backend } from 'react-dnd-html5-backend';
 
 const EditorDePesquisa = () => {
     const [perguntas, setPerguntas] = useState([]);
@@ -16,7 +18,7 @@ const EditorDePesquisa = () => {
     };
 
     return (
-        <DndProvider backend={HTMLBackend}>
+        <DndProvider backend={HTML5Backend}>
             <div>
                 <h2>Editor de Pesquisa</h2>
                 <button onClick={adicionarPergunta}>Adicionar Pergunta</button>

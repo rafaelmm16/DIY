@@ -34,31 +34,31 @@ const data = {
     },
     {
       title: "Editor de Pesquisa",
-      url: "/editor-de-pesquisa",
+      url: "/editor-pesquisa",
       items: [
         {
           title: "Page",
-          url: "/editor-de-pesquisa",
+          url: "/editor-pesquisa",
         },
       ],
     },
     {
       title: "Visualizador De Relatorios",
-      url: "/visualizador-de-relatorios",
+      url: "/visu-relatorio",
       items: [
         {
           title: "Components",
-          url: "/visualizador-de-relatorios",
+          url: "/visu-relatorio",
         },
       ],
     },
     {
       title: "Elementos Gamificados",
-      url: "/elementos-gamificados",
+      url: "/elementos-game",
       items: [
         {
           title: "Accessibility",
-          url: "/elementos-gamificados",
+          url: "/elementos-game",
         },
       ],
     },
