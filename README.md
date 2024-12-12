@@ -11,20 +11,6 @@ Este projeto visa criar um software de pesquisa de mercado "faça você mesmo" u
     * `/pesquisa/[id]`: Página para responder a uma pesquisa específica (com lógica de gamificação).
     * `/relatorios/[id]`: Visualização de relatórios gerados a partir das pesquisas.
 
-* **Estado (Context API ou Redux):** Gerenciar o estado da aplicação, como dados da pesquisa, respostas coletadas, informações do usuário.
-
-
-**Backend (API Routes em Next.js ou servidor externo):**
-
-* **Rotas:**
-    * `/api/pesquisas`: Criar, listar, atualizar e deletar pesquisas.
-    * `/api/respostas`: Enviar e coletar respostas das pesquisas.
-    * `/api/usuarios`: Gerenciar cadastro, login e autenticação de usuários.
-    * `/api/relatorios`: Gerar relatórios com base nos dados coletados.
-
-* **Banco de dados (MongoDB, PostgreSQL, etc.):** Armazenar informações de usuários, pesquisas, respostas e relatórios.
-
-
 ## II. Funcionalidades Principais
 
 **Criação de Pesquisas:**
@@ -62,31 +48,10 @@ Este projeto visa criar um software de pesquisa de mercado "faça você mesmo" u
 * Sistema de pontos por resposta.
 * Recompensas virtuais ou descontos para incentivar a participação.
 
-**Integração com Redes Sociais:**
-
-* Login com redes sociais (Google, Facebook, etc.).
-* Compartilhamento de pesquisas nas redes sociais.
-
-
 ## III. Tecnologias
 
 * **Next.js:** Framework para desenvolvimento web em React.
-* **Banco de dados:** MongoDB, PostgreSQL ou outro de sua preferência.
 * **Biblioteca de gráficos:** Chart.js, Recharts, ou similar.
 * **Editor de texto rico:** Tiptap, Slate.js, ou similar (para perguntas de texto aberto).
 * **Biblioteca de drag-and-drop:** React Beautiful DnD, React DnD, ou similar.
 * **Estilização:** CSS Modules, Styled Components, ou similar.
-
-
-## IV. Etapas de Desenvolvimento
-
-1. Configurar o ambiente de desenvolvimento: Instalar Node.js, npm/yarn, criar projeto Next.js.
-2. Criar o backend (API Routes): Definir as rotas e a lógica para manipulação dos dados.
-3. Implementar o banco de dados: Criar o esquema e configurar a conexão com o banco de dados.
-4. Desenvolver o frontend: Criar as páginas e componentes da interface do usuário.
-5. Integrar frontend e backend: Conectar a interface do usuário com as rotas da API.
-6. Implementar as funcionalidades principais: Criação de pesquisas, coleta de respostas, análise de resultados, geração de relatórios.
-7. Adicionar gamificação: Implementar elementos de gamificação para aumentar o engajamento.
-8. Integrar com redes sociais: Configurar o login com redes sociais e o compartilhamento de pesquisas.
-9. Testar e depurar: Realizar testes completos para garantir o funcionamento correto da plataforma.
-10. Deploy: Publicar a aplicação em um serviço de hospedagem.
